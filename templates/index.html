@@ -8,6 +8,10 @@
 </head>
 <body>
     <h2>Инвентор</h2>
+    <form action="/add/" method="POST">
+        <input type="text" name="good">
+        <button>Add</button>
+    </form>
     <ol>
         {% for good in goods%}
             <li>{{ good }}</li>
