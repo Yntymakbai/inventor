@@ -16,6 +16,6 @@ def add():
     f.write(good + "\n")
     f.close()
     return """
-        <h1>Inventor fulfilled!</h1>
+        <h1>Inventor replenished!</h1>
         <a href='/'>Home</a>
     """
